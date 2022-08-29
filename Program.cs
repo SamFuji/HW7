@@ -52,7 +52,7 @@ int [,] GetArray(int m, int n, int minValue, int maxValue) //функция за
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-void PrintArray(int[,] inArray) //функция отображения массива
+void PrintArray(int[,] inArray) //функция отображения массива целых чисел
 {
     for (int i = 0; i < inArray.GetLength(0); i++)
     {
